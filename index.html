@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title"> Form Submission </h1>
+    <p>When we enter the details in the form.It should enter in the table...</p>
+    <div class="form-collector">
+        <fieldset style="background: url(/img3.jpg) ;">
+            <form id="formtab">
+                <input type="text" for="fName" id="FirstName" placeholder="FirstName"><br><br>
+                <input type="text" for="lName" id="LastName" placeholder="LastName"><br><br>
+                <input type="text" for="Address" id="Address" placeholder="Address"><br><br>
+                <input type="number" for="pinNumber" id="Pincode" placeholder="Pincode"><br><br>
+                <input type="text" for="Gender" id="Gender" placeholder="Gender"><br><br>
+                <input type="text" for="state" id="State" placeholder="State"><br><br>
+                <input type="text" for="country" id="Country" placeholder="Country"><br><br><br>
+    
+                <button type="submit">Submit form</button>
+                </form>
+        </fieldset>
+    </div>
+
+    <script src="script.js"></script>
+    <br>
+    <br>
+    <br>
+    <!-- <div id="form-collector"> -->
+    <table id="myTable">
+        <tr>
+            <td class="space" for="name">FirstName</td>
+            <td class="space" for="lname">LastName</td>
+            <td class="space" for="add">Address</td>
+            <td class="space" for="pin">Pincode</td>
+            <td class="space" for="gender">Gender</td>
+            <td class="space" for="state">State</td>
+            <td class="space" for="cont">Country</td>
+        </tr>
+    </table>
+    <!-- </div> -->
+</body>
+
+</html>
